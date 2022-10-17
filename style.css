@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+.main {
+
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+
+    background-color:#565264;
+    font-family:'Nunito'
+}
+.cabeçalho > img {
+    height:30vh;
+    width:30vw;
+}
+.cabeçalho {
+    color: #d6cfcb;
+}
+.cabeçalho > h1 {
+    width:800;
+    font-size:3vw;
+}
+.cabeçalho > p {
+    margin:0 0 1em 25px;
+}
+.card {
+    height:22vh;
+    width:20vw;
+    padding:10px;
+
+
+    background-color:#706677;
+}
+.conteudo {
+    margin:20px;
+
+}
+.conteudo > input {
+    width: 15vw;
+    padding:7px;
+    border-radius:7px;
+    margin-bottom:15px;
+
+
+    background-color: #ccb7ae;
+}
+.conteudo > button {
+    width:16vw;
+    padding:8px;
+    border-radius:10px;
+
+    color:#565264;
+    background-color:#ae808c;
+    text-transform:uppercase;
+}
+.conteudo > placeholder {
+    color:#565264;
+}
+
+@media  (max-width:960px) {
+    .main {
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+    }
+    .cabeçalho > img {
+       display:none;
+    
+    }
+    .cabeçalho > h1 {
+        font-size: 4vh;
+        text-align: center;
+    }
+    .cabeçalho > p {
+        text-align: center;
+    }
+
+    .card {
+        height: 40vh;
+        width: 90vw;
+    }
+    .conteudo {
+        margin-top:55px;
+        
+    
+    }
+    .conteudo > input {
+        height:4vh;
+        width: 80vw;
+    }
+    .conteudo > button {
+        height:6vh;
+        width: 80vw;
+        margin-top:30px;
+    }
+}
